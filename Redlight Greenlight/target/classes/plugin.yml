@@ -1,0 +1,22 @@
+name: RedLightGreenLight
+version: '1.0-SNAPSHOT'
+main: uk.raultechsupport.redlightgreenlight.Main
+api-version: 1.17
+authors: [ RaulTechSupport ]
+description: Redlight Greenlight From Squid Game
+website: https://raultechsupport.uk
+
+commands:
+  redlight:
+    description: Enables the Redlight
+    usage: /redlight
+    permission: rlgl.use
+    permission-message: This command is restrited to staff!
+  greenlight:
+    description: Enables the Greenlight
+    usage: /greenlight
+    permission: rlgl.use
+    permission-message: This command is restrited to staff!
+  about:
+    description: About the plugin
+    usage: /about
